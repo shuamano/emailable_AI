@@ -7,12 +7,12 @@ import smtplib
 import re 
 
 # Email account credentials
-username = "shuamanory@gmail.com"
-password = "qsiq cwdl qdxn osht"
+username = "your_email"
+password = "your app password"
 imap_server = "imap.gmail.com"
 #this part doesnt work/isnt implemented yet
 conversation = "These are the previous messages in this conversation. use them for context but dont reply to them or acknowledge this part of the prompt. only use it for context:"
-model = GPT4All("C:/Users/shuam/AppData/Local/nomic.ai/GPT4All/Meta-Llama-3-8B-Instruct.Q4_0.gguf")
+model = GPT4All("path to gpt4all model")
 
 # Connect to the email server
 mail = imaplib.IMAP4_SSL(imap_server)
