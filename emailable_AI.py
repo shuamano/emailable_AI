@@ -121,5 +121,5 @@ while True:
                 print(email_body)
                 conversation += f" User message:{email_body}"
                 generate_response()
-                
+    print("Listening for emails...")            
     time.sleep(1)  
